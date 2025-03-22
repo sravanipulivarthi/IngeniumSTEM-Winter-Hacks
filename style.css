@@ -1,0 +1,52 @@
+body {
+  color: white;
+}
+
+h1 {
+  color: #1b2a5a;
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+p {
+  color: #1b2a5a;
+  font-family: "YO";
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat.ttf');
+}
+
+@font-face {
+    font-family: 'YO';
+    src: url('fonts/YO.ttf');
+}
+
+.NavBar {
+  padding-top: 0%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 4%;
+  width: 100%;
+  background-color: #dae2ed;
+}
+
+.NavBar a {
+  color: #576fbd;
+  font-family: "YO";
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.NavBar a:hover {
+  color: #1b2a5a;
+
+.NavBar a:active {
+  color: grey;
